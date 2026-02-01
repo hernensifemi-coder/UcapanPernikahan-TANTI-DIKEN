@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Wishes</title>
+
+    <!-- Font Arab -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Musik -->
+<audio id="musik" loop>
+    <source src="beautiful-in-white.mp3" type="audio/mpeg">
+</audio>
+
+<!-- COVER / KARTU TERTUTUP -->
+<div class="cover" onclick="bukaUndangan()">
+    <div class="cover-card">
+        <p class="small">The Wedding Of</p>
+        <h1 class="nama-pengantin">Tanti & Diken</h1>
+        <button>Buka Kartu</button>
+    </div>
+</div>
+
+<!-- ISI KARTU -->
+<div class="container hidden">
+    <h2>Selamat Menikah</h2>
+
+    <div class="slider">
+        <img src="images/FOTO.jpeg" class="slide active">
+        <img src="images/T&D.jpeg" class="slide">
+        <img src="images/FOTO1.jpeg" class="slide">
+    </div>
+
+    <p class="ucapan fade-in">
+        <span class="arab">
+            Barakallahu lakuma wa baraka ‘alaikuma<br>
+            wa jama‘a bainakuma fii khair
+        </span>
+        <br><br>
+        Selamat menempuh hidup baru, sahabatku.<br><br>
+        Semoga cinta kalian selalu tumbuh,<br>
+        saling menguatkan dalam suka dan duka,<br>
+        dan menjadi rumah paling hangat<br>
+        satu sama lain 🤍
+        <br><br>
+        <span class="pengirim">
+            — Dengan doa terbaik,<br>
+            From : Femi dan Aldo
+        </span>
+    </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
